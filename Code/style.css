@@ -563,7 +563,7 @@ nav ul {
 }
 
 /* iPad Pro */
-@media only screen and (max-width: 1024px) and (min-width: 851px) {
+@media only screen and (max-width: 1125px) and (min-width: 851px) {
 
     /* JS Menu Button */
 
@@ -643,7 +643,7 @@ nav ul {
 }
 
 /* Miscellaneous */
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 750px) {
 
     /* JS Menu Button */
 
@@ -651,11 +651,9 @@ nav ul {
         font-size: 1.2rem;
     }   
 
-    nav ul {
-        display: none;
-        margin-right: 0;
-        padding: 0rem;
-        gap: 30px;
+    nav {
+        display: flex;
+        flex-flow: column-reverse;
     }
 
     nav.open h1 {
@@ -664,24 +662,33 @@ nav ul {
 
     nav.open ul {
         display: flex;
+        flex-flow: column-reverse;
+        padding: 1rem;
     }
 
     nav button#hamburger {
         display: flex;
+        font-size: 2rem;
     }
 
-    nav {
-        justify-content: center;
+    nav ul {
+        margin: 0;
+        padding: 0.4rem;
+        gap: 5px;
     }
 
-    nav .name a {
-        display: none;
+    nav ul li {
+        font-size: 2px;
+    }
+
+    .skill-header {
+        padding: 2rem;
     }
 
 }
 
 /* iPhone 14 Pro Max */
-@media only screen and (max-width: 540px) and (min-width: 375px) {
+@media only screen and (max-width: 550px) and (min-width: 360px) {
 
     /* JS Menu Button */
 
