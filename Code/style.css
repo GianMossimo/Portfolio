@@ -648,7 +648,7 @@ nav ul {
     /* JS Menu Button */
 
     nav .name a {
-        font-size: 1.2rem;
+        display: none;
     }   
 
     nav {
